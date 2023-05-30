@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  overflow-x: hidden;
+  overflow-y: auto;  
+  background-image: url('https://earthsky.org/upl/2022/08/Milky-Way-Amr-Abdulwahab-western-desert-of-Egypt-July-8-2022-e1661981704464.jpg');
+  background-size: cover;
+}
+
+.wrapper h1{
+  margin-top: 30px;
+  text-align: center;
+  color: #e4e4e4;
+}
+
+/* .wrapper p{
+  text-align: center;
+  margin-top: 7px;
+  font-weight: bold;
+} */
+
+.wrapper .main{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.wrapper .form-container{
+  width: 500px;
+  height: 440px;
+  background-color: #e4e4e4;
+  margin: 20px auto;
+  padding: 20px;   
+}
+
+.wrapper .form-container .btn{
+  width: 100%;   
+}
+
+.wrapper .view-container{
+  width: 600px;    
+  background-color: #e4e4e4;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.edit-btn{
+  color: rgb(28, 249, 8);
+  cursor: pointer;
+}
+
+.delete-btn{
+  color: red;
+  cursor: pointer;
+}
+
+tbody{
+  margin-top: 25px;
+}
